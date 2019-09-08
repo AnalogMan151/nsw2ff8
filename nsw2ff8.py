@@ -7,6 +7,10 @@ import os, argparse
 
 def main():
     print('\n======== FF8 NSW Save Tool ========\n\n')
+    
+    if sys.version_info <= (3,1,0):
+        print('Python version 3.1.x+ needed to run this script.\n\n')
+        return 1
 
     # Arg parser for program options
     p = argparse.ArgumentParser(description='Inject or extract FF8 save data to Nintendo Switch save')
