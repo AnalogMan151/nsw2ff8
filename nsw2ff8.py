@@ -3,7 +3,7 @@
 # Modified Date: 2019-09-08
 # Purpose: Injects or extracts FF8 save data to Switch save
 
-import os, argparse
+import sys, os, argparse
 
 def main():
     print('\n======== FF8 NSW Save Tool ========\n\n')
